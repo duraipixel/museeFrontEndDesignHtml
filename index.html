@@ -1,0 +1,2421 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1,  maximum-scale=1, user-scalable=0" >
+	<meta name="description" content="Your favorite instrument store since 1842">
+	<meta name="keywords" content="Musee Musical">  	
+	<title>Musee Musical</title>
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->                
+	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha512-H9jrZiiopUdsLpg94A333EfumgUBpO9MdbxStdeITo+KEIMaNfHNvwyjjDJb+ERPaRS6DpyRlKbvPUasNItRyw==" crossorigin="anonymous" />		
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css" integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg==" crossorigin="anonymous" />	
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet" />
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css" integrity="sha512-nMNlpuaDPrqlEls3IX/Q56H36qvBASwb3ipuo3MxeWbsQB1881ox0cRv7UPTgBlriqoynt35KjEwgGUeUXIPnw==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css" integrity="sha512-6qkvBbDyl5TDJtNJiC8foyEVuB6gxMBkrKy67XpqnIDxyvLLPJzmTjAj1dRJfNdmXWqD10VbJoeN4pOQqDwvRA==" crossorigin="anonymous" />
+	
+	<link rel="stylesheet" type="text/css" href="css/header.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+	<link rel="stylesheet" type="text/css" href="css/footer.css" />
+	<!-- Alert Css -->
+	
+</head> 
+
+<body>
+	<div class="main-content">
+   <div class="top-bar">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="top-logo">
+            <a href=""><img src="images/logo.svg" alt="" /></a>
+          </div>
+          <div class="top-search">
+		  <div class="">
+			<select class="form-control" id="enq" name="enq">
+				<option value="">All Products</option>
+                <option value="Dealer">Dealer</option>
+                <option value="Dealer">Distributor</option>
+                <option value="Dealer">Bulk Enquiry</option>
+                <option value="Dealer">Importer</option>
+                <option value="Dealer">Exporter</option>
+                <option value="Dealer">Retailer</option>
+                <option value="Dealer">Interior Designer</option>
+                <option value="Dealer">Architect</option>
+                <option value="Dealer">Builder</option>
+                <option value="Dealer">Project </option>
+                <option value="Dealer">Hotel </option>
+                <option value="Dealer">Restaurants</option>
+                <option value="Dealer">Hospital</option>
+                <option value="Dealer">School/ University/ Hostel</option>
+                <option value="Dealer">Others</option>
+			</select>
+		  </div>
+		  <div class="form-data">		  		  
+			<input type="search" placeholder="Search..."> 
+		  </div>
+          </div>
+          <div class="top-icons">
+           <ul>
+		   <li><a href=""><img src="images/user.png" alt="" /></a></li>
+		   <li><a href=""><img src="images/swag.png" alt="" /></a></li>
+		   <li><a href=""><img src="images/cart.png" alt="" /></a></li>
+		   </ul>
+          </div>
+           
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <nav id='cssmenu'>  
+          <div class="button"></div>
+          <ul>
+            <!-- <li id="corporate-menu"><a href='javascript:void(0)'>Corporate</a>
+              <ul>
+                <li>
+                  <a href="#">About GRB</a>
+                </li>
+                <li>
+                  <a href="#">Vision and Mission</a>
+                </li>
+                <li>
+                  <a href="#">History</a>
+                </li>
+              </ul>
+            </li> !-->
+            <li class="having-hamber">
+              <a href="javascript:void(0)" class="toggle-button"><img src="images/hamber.png" alt="" />All</a>
+            </li> 
+            <li>
+              <a href="#">Today’s Top Deals</a>
+            </li> 
+            <li>
+              <a href="#">New Arrivals</a>
+            </li> 
+            <li>
+              <a href="#">Pianos</a>
+            </li> 
+            <li>
+              <a href="#">Guitars</a>
+            </li> 
+            <li>
+              <a href="#">Music Accessories</a>
+            </li> 
+            <li>
+              <a href="#">Music Books</a>
+            </li> 
+            <li>
+              <a href="#">Shop by Brand</a>
+            </li> 
+          </ul>
+        </nav>
+		
+      </div>
+    </div>
+  </div>
+</header> 
+
+<div class="togle-menu mCustomScrollbar" data-mcs-theme="dark">
+	<div class="togmenu-header">
+	<a href="javascript:void(0)" class="clse-menu"><img src="images/close.png" /></a>
+	<h4>What are you looking<br> for today?</h4>
+	</div>
+	<div class="togmenu-lists">
+	
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading1">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+        Pianos
+      </button>
+    </h2>
+    <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+		<ul>
+		<li><a href="">- All Pianos</a></li>
+		<li><a href="">- Grand Pianos</a></li>
+		<li><a href="">- Acoustic Pianos</a></li>
+		<li><a href="">- Digital Pianos</a></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+        Guitars
+      </button>
+    </h2>
+    <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Acoustic Guitars</a></li>
+		<li><a href="">- Classical Guitars</a></li>
+		<li><a href="">- Electric Guitars</a></li>
+		<li><a href="">- Bass Guitars</a></li>
+		<li><a href="">- Ukuleles</a></li>
+		<li><a href="">- Mandolin</a></li>
+		</ul>
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading3">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+        Keyboards
+      </button>
+    </h2>
+    <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Compact Keyboards</a></li>
+		<li><a href="">- Portable Keyboards</a></li>
+		<li><a href="">- Midi Keyboards</a></li>
+		<li><a href="">- Synthesizers</a></li>
+		<li><a href="">- Workstation</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading4">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+        Drumkits
+      </button>
+    </h2>
+    <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Acoustic Drumkits</a></li>
+		<li><a href="">- Electronic Drumkits</a></li>
+		<li><a href="">- Multipad</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading5">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+        Strings
+      </button>
+    </h2>
+    <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Violin</a></li>
+		<li><a href="">- Viola</a></li>
+		<li><a href="">- Cello</a></li>
+		<li><a href="">- Double Bass</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading6">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+        Indian Instruments
+      </button>
+    </h2>
+    <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- North Indian</a></li>
+		<li><a href="">- South Indian</a></li>
+		<li><a href="">- Percussion</a></li>
+		<li><a href="">- Folk</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading7">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+        Woodwind Instruments
+      </button>
+    </h2>
+    <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Clarinets</a></li>
+		<li><a href="">- Flutes</a></li>
+		<li><a href="">- Saxophones</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading8">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+        Brass Instruments
+      </button>
+    </h2>
+    <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Trumpets</a></li>
+		<li><a href="">- Euphoniums</a></li>
+		<li><a href="">- Alto Horns</a></li>
+		<li><a href="">- Piccolo</a></li>
+		<li><a href="">- Recorders</a></li>
+		<li><a href="">- Bugles</a></li>
+		<li><a href="">- Cornets</a></li>
+		<li><a href="">- Trombone</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="heading9">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+        Percussion & Cymbals
+      </button>
+    </h2>
+    <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+ 		<ul>
+		<li><a href="">- Marching Drums</a></li>
+		<li><a href="">- Cajon</a></li>
+		<li><a href="">- Bongos</a></li>
+		<li><a href="">- Conga</a></li>
+		<li><a href="">- Tambourine</a></li>
+		<li><a href="">- Cymbals</a></li>
+		<li><a href="">- Djembe</a></li>
+		<li><a href="">- Darbuka</a></li>
+		<li><a href="">- Glockenspiel</a></li>
+		<li><a href="">- Chimes</a></li>
+		</ul> 
+      </div>
+    </div>
+  </div>
+</div>	
+	</div>
+</div>
+
+
+<div id="homeCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-touch="true" >
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button> 
+    <button type="button" data-bs-target="#homeCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button> 
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banners/banner-image1.jpg" alt="" class="w-100 d-none d-lg-block" />
+      <img src="images/banners/banner-image1-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <div class="carousel-caption animated animatedFadeInUp fadeInUp">
+		<img src="images/banner-logo.png" alt="" class="img-fluid" />
+        <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/banners/banner-image2.jpg" alt="" class="w-100 d-none d-lg-block" />
+      <img src="images/banners/banner-image2-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <div class="carousel-caption animated animatedFadeInUp fadeInUp">
+		<img src="images/banner-logo.png" alt="" class="img-fluid" />
+        <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
+        <a href="#">Shop Now</a>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="images/banners/banner-image3.jpg" alt="" class="w-100 d-none d-lg-block" />
+      <img src="images/banners/banner-image4-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <div class="carousel-caption animated animatedFadeInUp fadeInUp">
+		<img src="images/banner-logo.png" alt="" class="img-fluid" />
+        <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
+        <a href="#">Shop Now</a>
+      </div>
+    </div> 
+  </div>
+  <a href="#home-content" class="scroll-down-btn home">
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+    <div class="chevron"></div>
+  </a>
+</div>
+
+<section class="list-of-deals" id="home-content">
+  <div class="container">
+    <div class="row">
+	
+	<div class="col-lg-12 col-md-12 col-sm-12">
+	<div class="common-heads">
+	<h2>Deals You don’t Want to Miss</h2>
+	</div>
+	</div>
+	
+	<div class="row">
+	
+	<div class="col-lg-3">
+	<div class="deals-box">
+	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
+	<ul>
+	<li>
+	<img src="images/deal-1.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-2.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-3.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-4.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="col-lg-3">
+	<div class="deals-box">
+	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
+	<ul>
+	<li>
+	<img src="images/deal-1.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-2.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-3.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-4.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="col-lg-3">
+	<div class="deals-box">
+	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
+	<ul>
+	<li>
+	<img src="images/deal-1.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-2.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-3.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-4.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	</ul>
+	</div>
+	</div>
+	
+	<div class="col-lg-3">
+	<div class="deals-box">
+	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
+	<ul>
+	<li>
+	<img src="images/deal-1.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-2.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-3.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	<li>
+	<img src="images/deal-4.jpg">
+	<span>Upto 30% OFF on Microphones</span>
+	</li>
+	</ul>
+	</div>
+	</div>
+	
+	</div> 
+	
+	</div>
+  </div>
+</section> 
+
+<section class="favorite-letter pt-0">
+  <div class="container">
+    <div class="row">
+	
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2><img src="images/heart.png"> by Our Favorite Trendsetters</h2>
+	</div>
+	<div class="next-jump">
+	<a href="">Join Our Community <img src="images/nxt.png"></a>
+	</div>
+	</div>	
+	
+	<div class="favorite-trends-slider">
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-1.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>Best Keyboard in 2022 for Beginners - Don't Buy the Wrong One!</h4>
+	<span><img src="images/favorite/fav-1.png"> A.R. Rahman</span>
+	</div>
+	</div>
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-2.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>Best Yamaha Digital Pianos for Homes - Arius, Clavinova, DGX or P-Series</h4>
+	<span><img src="images/favorite/fav-2.png"> Anirudh Ravichander </span>
+	</div>
+	</div>
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-3.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>Sony’s best headphones just got [a little] better</h4>
+	<span><img src="images/favorite/fav-3.png"> Tenma Makes Music </span>
+	</div>
+	</div>
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-4.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>12 Essential Accessories For Guitarists - More Great Gifts For Guitar Players!</h4>
+	<span><img src="images/favorite/fav-4.png"> Jonita Gandhi </span>
+	</div>
+	</div>
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-1.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>Best Keyboard in 2022 for Beginners - Don't Buy the Wrong One!</h4>
+	<span><img src="images/favorite/fav-1.png"> A.R. Rahman</span>
+	</div>
+	</div>
+	
+	<div class="favrite">
+	<div class="fav-img">
+	<img src="images/favorite/fav-2.jpg">
+	<a id="play-video" class="video-play-button" href="#">
+	<span></span>
+	</a>
+	</div>
+	<div class="fav-cnt">
+	<h4>Best Yamaha Digital Pianos for Homes - Arius, Clavinova, DGX or P-Series</h4>
+	<span><img src="images/favorite/fav-2.png"> Anirudh Ravichander </span>
+	</div>
+	</div> 
+	
+	</div>
+	
+	</div>
+  </div>
+</section>
+
+<section class="new-arrivals pt-0">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>New Arrivals for Fresh Tunes </h2>
+	</div>
+	<div class="next-jump">
+	<a href=""> Browse All <img src="images/nxt.png"></a>
+	</div>
+	</div>
+	
+	<div class="arrivals-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-3.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-4.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-5.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+<section class="live-video">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-between align-items-center">
+
+<div class="shopping-video">
+<div class="common-heads light">
+<h2>Live Video Shopping</h2>
+</div>
+<div class="secondary-para">
+Connect with us via video call and our experts will help you choose<br> the perfect musical instrument from the comfort of your home
+</div>
+</div>
+
+<div class="shopping-book">
+<a href="">Book Virtual Shopping</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+
+<section class="new-arrivals">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>Top Ranked</h2>
+	</div>
+	<div class="next-jump">
+	<a href=""> Browse All <img src="images/nxt.png"></a>
+	</div>
+	</div>
+	
+	<div class="ranked-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Ibanez MTZ11 Guitar Set Up Multi Tool Set</h4>
+	<h5>₹1,100</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-2.jpg"> 
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Electronic Drumkits
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Lemon T-750 9-piece Electronic Drum Set</h4>
+	<h5>₹95,600</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-3.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Electric Guitars
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Yamaha TRBX174 TRBX Series Electric Bass Guitar</h4>
+	<h5>₹18,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-4.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Marshall Amplification MS-2R Red Micro Guitar Amp</h4>
+	<h5>₹4,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-5.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Planet Waves Lemon Oil Guitar Conditioner</h4>
+	<h5>₹370</h5>
+	</div>
+	</div> 
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/ranked/rank-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Ibanez MTZ11 Guitar Set Up Multi Tool Set</h4>
+	<h5>₹1,100</h5>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="the-trending text-center">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+<div class="trending-lsts">
+
+<div class="shopping-video">
+<div class="common-heads light">
+<h2>#TheTrending10</h2>
+</div>
+<div class="primary-para">
+Top 10 instruments specially curated for you by our experts
+</div>
+</div>
+	
+	<div class="trending-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-1.jpg">
+	<div class="ofr-prc">
+	<h5>#1</h5>
+	</div>
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Ibanez MTZ11 Guitar Set Up Multi Tool Set</h4>
+	<h5>₹1,100</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-2.jpg"> 
+	<div class="ofr-prc">
+	<h5>#2</h5>
+	</div>	
+	</div>
+	<div class="trend-access">	
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Electronic Drumkits
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Lemon T-750 9-piece Electronic Drum Set</h4>
+	<h5>₹95,600</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-3.jpg">
+	<div class="ofr-prc">
+	<h5>#3</h5>
+	</div>	
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Electric Guitars
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Yamaha TRBX174 TRBX Series Electric Bass Guitar</h4>
+	<h5>₹18,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-4.jpg">
+	<div class="ofr-prc">
+	<h5>#4</h5>
+	</div>	
+	</div>
+	<div class="trend-access">	
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Marshall Acton II 60 Watt Wireless Bluetooth Speaker</h4>
+	<h5>₹4,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-5.jpg">
+	<div class="ofr-prc">
+	<h5>#5</h5>
+	</div>	
+	</div>
+	<div class="trend-access">	
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Planet Waves Lemon Oil Guitar Conditioner</h4>
+	<h5>₹370</h5>
+	</div>
+	</div>
+	</div> 
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/trending/trend-1.jpg">
+	<div class="ofr-prc">
+	<h5>#1</h5>
+	</div>
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Guitar Accessories 
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Ibanez MTZ11 Guitar Set Up Multi Tool Set</h4>
+	<h5>₹1,100</h5>
+	</div>
+	</div>
+	</div> 
+	
+	</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="new-arrivals">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>Blockbuster Deals</h2>
+	</div>
+	<div class="next-jump">
+	<a href=""> Browse All <img src="images/nxt.png"></a>
+	</div>
+	</div>
+	
+	<div class="arrivals-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-3.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-4.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-5.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="our-brands">
+<div class="container">
+<div class="row align-items-center">
+
+<div class="col-lg-10 col-md-10 col-sm-12 col-xs-12"> 
+
+<div class="brands-slider">
+
+<div class="brand">
+<img src="images/brands/brand-1.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-2.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-3.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-4.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-5.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-6.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-1.png">
+</div>
+
+<div class="brand">
+<img src="images/brands/brand-2.png">
+</div>
+
+</div> 
+
+</div>
+
+<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 d-flex justify-content-end"> 
+
+<div class="shopping-book">
+<a href="">Shop by Brand</a>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="best-keyboards">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-between align-items-center">
+
+<div class="shopping-video">
+<div class="common-heads light">
+<h2>Best Selling Casio Keyboards </h2>
+</div> 
+</div>
+
+<div class="shopping-book">
+<a href="">Visit Casio Brand Store</a>
+</div>
+
+</div>
+	
+	<div class="keyboards-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-3.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-4.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-5.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+
+<section class="new-arrivals">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>Bestsellers</h2>
+	</div>
+	<div class="next-jump">
+	<a href=""> Browse All <img src="images/nxt.png"></a>
+	</div>
+	</div>
+	
+	<div class="arrivals-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-3.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-4.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-5.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+<section class="control-tunes">
+<div class="container">
+<div class="row"> 
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads light">
+	<h2>Control Your Tunes</h2>
+	</div>
+	<div class="next-jump light">
+	<a href=""> Browse All <img src="images/nxt-w.png"></a>
+	</div>
+	</div>
+	
+	<div class="keyboards-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-3.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-4.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-5.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="trend-access">
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	</div>
+	
+	</div>
+	
+	
+
+</div>
+</div>
+</section>
+
+
+<section class="new-arrivals">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>Our Recommendations</h2>
+	</div>
+	<div class="next-jump">
+	<a href=""> Browse All <img src="images/nxt.png"></a>
+	</div>
+	</div>
+	
+	<div class="arrivals-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5><span>₹14,999</span>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-2.jpg">
+	<div class="ofr-prc">
+	<h5>15%<span>Off</span></h5>
+	</div>
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-3.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-4.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-5.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/deals/deal-1.jpg">
+	</div>
+	<div class="ratings d-flex justify-content-between">
+	<div class="prdt-type">
+	Ukuleles
+	</div>
+	<div class="prdt-ratngs">
+	<img src="images/star.png">4.9
+	</div>
+	</div>
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4>
+	<h5>₹24,296</h5>
+	</div>
+	</div>
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+<section class="recently-viewed text-center pt-0">
+<div class="container">
+<div class="row">
+
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+	<div class="common-heads">
+	<h2>Recently Viewed Items</h2>
+	</div> 
+	</div>
+	
+	<div class="arrivals-slider">
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-5.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-2.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-3.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-4.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-1.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+	
+	<div class="arrival-product">
+	<div class="prdt-img">
+	<img src="images/arrivals/product-5.jpg">
+	</div> 
+	<div class="prdt-nameprc">
+	<h4>Juarez 53.34 cm (21") Soprano Ukulele Kit</h4> 
+	</div>
+	</div>
+ 
+	
+	</div>
+
+</div>
+</div>
+</section>
+
+<section class="patrons-saying">
+<div class="container">
+<div class="row"> 
+
+<div class="col-lg-12 col-md-12 col-sm-12">
+<div class="common-heads light text-center">
+<h2>What our patrons are saying about Musee Musicals?</h2>
+</div> 
+</div>
+
+<div class="patrons-slider">
+
+<div class="patron text-left">
+<div class="patron-detil">
+“Musee Musical is an inspiring space for musicians. I loved to visit this place. The passion, the tradition and the love for music lead the road to a world of music.”
+</div>
+<div class="patron-img">
+<span><img src="images/testimonials/testi-1.png"> Dr. Karaikudi S Subramanian</span>
+</div>
+</div>
+
+<div class="patron text-left">
+<div class="patron-detil">
+“Musee Musical is an inspiring space for musicians. I loved to visit this place. The passion, the tradition and the love for music lead the road to a world of music.”
+</div>
+<div class="patron-img">
+<span><img src="images/testimonials/testi-2.png"> A.R Rahman </span>
+</div>
+</div>
+
+<div class="patron text-left">
+<div class="patron-detil">
+“Musee Musical is an inspiring space for musicians. I loved to visit this place. The passion, the tradition and the love for music lead the road to a world of music.”
+</div>
+<div class="patron-img">
+<span><img src="images/testimonials/testi-3.png"> Kalaimamani Sivamani </span>
+</div>
+</div>
+
+<div class="patron text-left">
+<div class="patron-detil">
+“Musee Musical is an inspiring space for musicians. I loved to visit this place. The passion, the tradition and the love for music lead the road to a world of music.”
+</div>
+<div class="patron-img">
+<span><img src="images/testimonials/testi-2.png"> A.R Rahman </span>
+</div>
+</div>
+
+<div class="patron text-left">
+<div class="patron-detil">
+“Musee Musical is an inspiring space for musicians. I loved to visit this place. The passion, the tradition and the love for music lead the road to a world of music.”
+</div>
+<div class="patron-img">
+<span><img src="images/testimonials/testi-3.png"> Kalaimamani Sivamani </span>
+</div>
+</div>
+
+</div> 
+
+</div>
+</div>
+</section>
+
+<section class="possibles">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-between">
+
+<div class="care-box text-left">
+<span><img src="images/icn-1.png"> 24x7 <br>Customer Support</span>
+</div>
+
+<div class="care-box text-left">
+<span><img src="images/icn-2.png"> Free <br>Shipping</span>
+</div>
+
+<div class="care-box text-left">
+<span><img src="images/icn-3.png"> Flexible <br>Returns </span>
+</div>
+
+<div class="care-box text-left">
+<span><img src="images/icn-4.png"> Secure <br>Payments</span>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+
+<footer>
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 d-flex justify-content-between">
+
+<div class="logo-social">
+<a href=""><img src="images/bottom-logo.png"></a>
+<ul>
+<li><a href=""> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+<li><a href=""> <i class="fa fa-instagram" aria-hidden="true"></i> </a></li>
+<li><a href=""> <i class="fa fa-twitter" aria-hidden="true"></i> </a></li>
+</ul>
+</div>
+
+<div class="quick-links">
+<h4>Quick links</h4>
+<ul>
+<li><a href="">Musical Instruments</a></li>
+<li><a href="">Accessories</a></li>
+<li><a href="">Music Books</a></li>
+<li><a href="">Professional Audio</a></li>
+<li><a href="">Shop by Brand</a></li>
+<li><a href="">Yamaha Music Hub</a></li>
+</ul>
+</div>
+
+<div class="quick-links">
+<h4>Information</h4>
+<ul>
+<li><a href="">Privacy Policy</a></li>
+<li><a href="">Terms Of Use</a></li>
+<li><a href="">Returns Policy</a></li>
+<li><a href="">Shipping Policy</a></li> 
+</ul>
+</div>
+
+<div class="contact-links">
+<h4>Information</h4>
+<ul>
+<li><a href=""><img src="images/loc.png"> 73, Anna Salai, Chennai – 600 002 </a></li> 
+<li><a href=""><img src="images/mail.png"> info@museemusical.in </a></li> 
+<li><a href=""><img src="images/call.png"> +91 44 2852 2780 <br>+91 44 2851 6474 </a></li> 
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+</footer>
+
+<section class="bottom-bar text-center">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<p>Copyright 2022 Musee Musical Private Limited | All Rights Reserved | Designed by <a href="">Pixel Studios</a>.</p>
+</div>
+
+</div>
+</div>
+</section>
+
+</div> 
+<div class="overlay"></div>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.js"></script>
+<script type="text/javascript">
+function funSave_subscriber(){
+    if (document.formSubscriber.aemail.value == "") {
+                alert("Please Enter Your Email")
+                document.form1.aname.focus()
+                return false;
+            }
+	if ($('#jvalidate').valid()) {
+
+		// $("button").attr('disabled',true);
+			// console.log( $("#jvalidate").serialize());
+            // return false;
+
+			$.ajax({
+				url: '<?php echo BASE_URL; ?>ajax/save_subscriber',
+				method     : 'POST',
+				dataType   : 'json',
+				data       : $("#jvalidate").serialize(),
+				
+				success: function(response){ 
+				
+					if(response.rslt == "1"){
+                        swal({
+							title: "Success!",
+							text: "Subscribe successfully",
+							type: "success",
+						}, function() {
+							location.reload();
+						});									
+						$('#jvalidate')[0].reset();
+					}
+					else{
+                        swal("Failure !", "error");
+					}	
+                    	
+				
+					unloading();
+					$("button").attr('disabled',false);
+				}
+			});
+	}
+    else{
+        alert("else")
+    }
+}
+
+</script>
+
+
+	<script	src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+	crossorigin="anonymous"></script>
+ 
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+	<script src="https://use.fontawesome.com/9ad0804c94.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha512-uURl+ZXMBrF4AwGaWmEetzrd+J5/8NRkWAvJx5sbPSSuOb0bZLqf+tOzniObO00BjHa/dD7gub9oCGMLPQHtQA==" crossorigin="anonymous"></script>
+ 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js" integrity="sha512-2ImtlRlf2VVmiGZsjm9bEyhjGW4dU7B6TNwh/hx/iSByxNENtj3WVE6o/9Lj4TJeVXPi4bnOIMXFIJJAeufa0A==" crossorigin="anonymous"></script>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js" integrity="sha512-Yk47FuYNtuINE1w+t/KT4BQ7JaycTCcrvlSvdK/jry6Kcxqg5vN7/svVWCxZykVzzJHaxXk5T9jnFemZHSYgnw==" crossorigin="anonymous"></script>
+    	<!-- validation -->  
+	<script type="text/javascript" src="js/jquery.validate.js"></script>
+	<script type="text/javascript" src="js/additional-methods.js"></script>   
+	
+    <script type="text/javascript" src="js/main.js"></script>	
+
+<script>
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    //console.log(scroll);
+    if (scroll >= 200) {
+      //console.log('a');
+      $("body").addClass("pad-top");
+      $("header").addClass("fixed-top");
+      $(".product-image3").addClass("active");
+    } else {
+      //console.log('a');
+      $("body").removeClass("pad-top");
+      $("header").removeClass("fixed-top");
+      $(".product-image3").removeClass("active");
+    }
+  }); 
+</script>
+
+
+<script>
+    $('.patrons-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 3,
+      dots: false,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+
+<script>
+    $('.brands-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 6,
+      dots: false,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 4,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+<script>
+    $('.favorite-trends-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 4,
+      dots: true,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+<script>
+    $('.keyboards-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 5,
+      dots: true,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+<script>
+    $('.arrivals-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 5,
+      dots: true,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+<script>
+    $('.ranked-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: false, 
+      slidesToShow: 5,
+      dots: true,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+<script>
+
+$(".toggle-button").click(function(){
+  $(".togle-menu").toggleClass("show");
+  $(".overlay").toggleClass("overlay-bg");
+});
+
+
+$(".overlay").click(function(){
+  $(".togle-menu").removeClass("show");
+  $(this).removeClass("overlay-bg");
+});
+
+$(".clse-menu").click(function(){
+  $(".togle-menu").removeClass("show");
+  $(".overlay").removeClass("overlay-bg");
+});
+</script>
+
+<script>
+    $('.trending-slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      arrows: true, 
+	  prevArrow: '<button type="button" class="slick-prev"></button>',
+      nextArrow: '<button type="button" class="slick-next"></button>',
+      slidesToShow: 5,
+      dots: true,
+      slidesToScroll: 1,
+      responsive: [
+        {
+          breakpoint: 1400,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 960,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          },
+        },
+      ],
+    });
+</script>
+
+	<script>
+		$(document).ready(function () {
+			if ($(window).width() > 960) {
+					$('#sidebar').stickySidebar({
+					sidebarTopMargin: 100,
+					footerThreshold: 900
+				});
+			} 		
+		});
+	</script>
+	<script>
+		(function ($) {
+			$.fn.menumaker = function (options) {
+				var cssmenu = $(this), settings = $.extend({
+					format: "dropdown",
+					sticky: false
+				}, options);
+				return this.each(function () {
+					$(this).find(".button").on('click', function () {
+						$(this).toggleClass('menu-opened');
+						var mainmenu = $(this).next('ul');
+						if (mainmenu.hasClass('open')) {
+							mainmenu.slideToggle().removeClass('open');
+						}
+						else {
+							mainmenu.slideToggle().addClass('open');
+							if (settings.format === "dropdown") {
+								mainmenu.find('ul').show();
+							}
+						}
+					});
+					cssmenu.find('li ul').parent().addClass('has-sub');
+					multiTg = function () {
+						cssmenu.find(".has-sub").prepend('<span class="submenu-button"></span>');
+						cssmenu.find('.submenu-button').on('click', function () {
+							$(this).toggleClass('submenu-opened');
+							if ($(this).siblings('ul').hasClass('open')) {
+								$(this).siblings('ul').removeClass('open').slideToggle();
+							}
+							else {
+								$(this).siblings('ul').addClass('open').slideToggle();
+							}
+						});
+					};
+					if (settings.format === 'multitoggle') multiTg();
+					else cssmenu.addClass('dropdown');
+					if (settings.sticky === true) cssmenu.css('position', 'fixed');
+					resizeFix = function () {
+						var mediasize = 1000;
+						if ($(window).width() > mediasize) {
+							cssmenu.find('ul').show();
+						}
+						if ($(window).width() <= mediasize) {
+							cssmenu.find('ul').hide().removeClass('open');
+						}
+					};
+					resizeFix();
+					return $(window).on('resize', resizeFix);
+				});
+			};
+		})(jQuery);
+
+		(function ($) {
+			$(document).ready(function () {
+				$("#cssmenu").menumaker({
+					format: "multitoggle"
+				});
+			});
+		})(jQuery);
+	</script> 
+	
+	<a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+</body>
+</html>
