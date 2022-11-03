@@ -3,6 +3,7 @@
     padding: 12px 0px;
     z-index: 9;
     position: relative;
+    transition: all .3s ease;
 }
 
 .top-bar ul.top-socials {
@@ -161,10 +162,7 @@ nav {
 #cssmenu>ul:hover {
     overflow: visible;
 }
-
-
-#cssmenu>ul>li { 
-}
+ 
 
 #cssmenu>ul>li#corporate-menu {
     z-index: 9999;
@@ -215,10 +213,9 @@ line-height: 20px;
 
 
 
-.fixed-top #cssmenu>ul>li>a,
-body.town-bus header #cssmenu>ul>li>a {
-    padding: 24px 30px;
-} 
+.fixed-top #cssmenu > ul > li > a, body.town-bus header #cssmenu > ul > li > a {
+    padding: 9px 30px;
+  }
 
 #cssmenu>ul>li.active:hover>a {
     color: #FFF;
@@ -306,11 +303,32 @@ body.town-bus header #cssmenu>ul>li.has-sub>a:after {
 
 .fixed-top #cssmenu>ul>li>a:before,
 body.town-bus header #cssmenu>ul>li.has-sub>a:before {
-    top: 7px;
+    top: 34px;
+    height: 1px;
 }
 
+.top-bar.top-fix{
+    position: fixed;
+    width: 100%;
+    top: 0;} 
 
+.top-bar.top-fix{
+animation-name: fadeInDown;
+animation-duration: 1s;
+animation-fill-mode: both;
+opacity: 0;padding:6px 0px 10px;transition: all .3s ease;
+box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+}  
 
+.top-bar.top-fix .top-search select {height: 30px;transition: all .3s ease;right: -3px;font-size: 14px;}
+
+.top-bar.top-fix .top-search input[type="search"]{height: 30px;transition: all .3s ease;}
+
+.top-bar.top-fix .top-logo img{width:70%;transition: all .3s ease;}
+
+.top-logo img{transition: all .3s ease;}
+
+.fixed-top{top:60px;}
 
 #cssmenu>ul>li.has-sub:hover>a:after {
     transform: rotate(180deg);
