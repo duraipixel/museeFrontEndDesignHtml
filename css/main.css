@@ -389,6 +389,8 @@ section {
     padding: 100px 0px;
     position: relative;
 }
+ 
+.moby-banner{display:none;}
 
 .common-heads h2{font-family: 'Quicksand', sans-serif;font-weight: 700;font-size: 38px;line-height: 48px;color:#212363;}
 .common-heads.light h2{color:#fff;}
@@ -944,12 +946,14 @@ font-family: 'Mulish', sans-serif;
 color: #1A1A1A;}
 
 .care-box span img{position:absolute;left:0;} 
+.next-jump {position: relative;top: 16px;}
 
 
+.mobile-footer{display: none;} 
 
+.srch-btn{display: none;}
 
-
-
+.togmenu-header{overflow: hidden;}
 
 
 
@@ -994,20 +998,34 @@ color: #1A1A1A;}
 
 
 @media (max-width: 1500px) {
-    .carousel .carousel-caption h1{font-size: 30px;}
+    .carousel .carousel-caption h1{font-size: 30px;margin-bottom: 25px;}
     .carousel .carousel-caption h1 span{display: block;}
     .common-heads h2{font-size:30px;}
-    .carousel .carousel-caption{top:35px;}
+    .carousel .carousel-caption{top:50px;}
     .deals-box h4 { font-size: 17px; line-height: 23px; margin-bottom: 15px;}
+    .common-heads h2{margin-bottom:10px;}
+    .carousel .carousel-caption img {margin-bottom: 25px;}
+    .next-jump a{font-size:16px;}
+    #cssmenu > ul > li > a{font-size: 14px;}
+    .secondary-para{font-size: 18px;}
+    .fav-cnt h4{font-size: 16px;}
+    .fav-cnt span{font-size: 17px;}
+    .prdt-nameprc h5{font-size: 20px;}
 }
 
 
-@media (max-width: 1300px) {
+@media (max-width: 1380px) {
     .carousel .carousel-control-prev {left: 10px;}
     .carousel .carousel-control-next {right: 10px;}   
+    #cssmenu > ul > li > a{padding: 15px 30px;}
+    .deals-box ul li{margin: 0px 5px 20px;} 
+    .shopping-book a{padding:12px 20px;}
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
+    .carousel .carousel-caption {
+        top: 30px;
+      }
  
 }
 
@@ -1016,22 +1034,65 @@ color: #1A1A1A;}
     .carousel .carousel-caption h4 {font-size: 30px;line-height: 40px;}
     .carousel .carousel-caption h5 {font-size: 80px;line-height: 90px;}
     .carousel .carousel-item iframe {height: 500px;}
+    .container, .container-lg, .container-md, .container-sm {max-width: 100%;}
+    .top-icons li{margin-right: 20px;}
+    #cssmenu > ul > li > a {padding: 15px 21px;}
+    #cssmenu > ul > li.having-hamber > a img {position: absolute;left: 0px;width: 29%;top: 18px;}
+    .carousel-caption .img-fluid {
+        width: 17%;}
+        .carousel .carousel-caption img {
+            margin-bottom: 15px;
+          }
+        .carousel .carousel-caption h1 {
+            font-size: 26px;line-height: 39px;}
+            .fixed-top #cssmenu > ul > li > a, body.town-bus header #cssmenu > ul > li > a {
+                padding: 12px 20px;
+              }
+              .shopping-book a {
+                padding: 12px;
+              }
 	
 }
 
-@media (max-width: 992px) {
-
+@media (max-width: 1000px) {
+    .favorite-letter .slick-list {
+        width: 100%;
+      }
+      .new-arrivals .slick-list {
+        width: 100%;
+      }
+      .keyboards-slider .slick-list {
+        width: 100%;
+      }
+      .recently-viewed .slick-list {
+        width: 100%;
+      }
+    .deals-box ul li{width:47%;}
+    .bottom-bar{padding: 15px 0px 100px !important;}
+    .w-100.desky-banner {
+        object-fit: cover;
+        height: 390px;
+      }
+    header{padding: 0px;}
+    .top-bar{padding: 8px 0px;}
+    .srch-btn{display: flex;}
     section {padding: 50px 0px;}
 	.scroll-down-btn {left: 0px;}
     .scroll-down-btn.home {left: calc(50% - 15px);}
 	#homeCarousel.carousel .carousel-item {background: #000;}
     #homeCarousel.carousel .carousel-item:before {position: absolute;left: 0;bottom: 0;width: 100%;height: 80%;background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(255, 255, 255, 0) 100%);content: "";}
 
-    #homeCarousel.carousel .carousel-caption {top: inherit;
-        bottom: 5%;
+    #homeCarousel.carousel .carousel-caption {
+        top: 5px;
+        bottom: inherit;
         padding: 50px 100px;
-    }
-
+      }
+    .srch-btn {
+        position: absolute;
+        right:70px;
+        display: block;
+        top: -55px;
+      }
     #homeCarousel.carousel .carousel-caption h4,
     #homeCarousel.carousel .carousel-caption h5,
     #homeCarousel.carousel .carousel-caption p {
@@ -1047,17 +1108,36 @@ color: #1A1A1A;}
         text-align: center;
     }
 
+    .top-icons{display:none;}
+
+    .top-search {
+        display:none;
+      }
+    .modal-body .top-search {
+        display:block;width:100%;
+      }
+      .modal-body .top-search select{
+        width:100%;background: #1A1A1A url("../images/down-arrow.svg") no-repeat scroll 96% center;
+      }
+      .modal-body .top-search input[type="search"]{border:1px solid #d4d4d4;margin-top: 15px;}
  
 	
 }
 
 @media (max-width: 800px) {
-    
+
+
+#homeCarousel.carousel .carousel-caption {top: 50%;
+    bottom: inherit;
+    padding: 50px 100px;
+}
  
 }
 
 @media (max-width: 760px) {
-
+    .deals-box{margin-bottom: 25px;}
+    .desky-banner{display:none;}
+    .moby-banner{display:block;}
     section {
         padding: 50px 0px;
     }
@@ -1108,9 +1188,64 @@ color: #1A1A1A;}
 }
 
 @media (max-width: 580px) {
+    .togle-menu{width: 300px;}
+    .togle-menu .togmenu-header{width: 300px;}
+    .togmenu-header{padding: 15px 15px 21px 15px;}
+    .togmenu-header h4{font-size: 18px;}
+    .togmenu-lists {
+        padding-top: 100px;}
+        .togle-menu .accordion-body ul {
+            padding-left: 25px;
+          }
+          .togle-menu .accordion-body ul li { 
+            margin-bottom: 12px;
+          }
+          .togle-menu .accordion-body ul li a{font-size:16px;}
+        .togle-menu .accordion-button {
+            padding: 20px 20px 16px 15px;}
+            .togle-menu .accordion-button{font-size: 16px;}
+            .togle-menu .accordion-body {
+                padding: 10px 0px 0px;
+              }
+            .togle-menu .accordion-button {
+                padding:15px 20px 16px 15px;}
+    .our-brands{padding: 40px 0px;}
+    .keyboards-slider {margin: 10px 0 0px;}
+    .our-brands .col-lg-2::before {display: none;}
+    .our-brands .shopping-book a {margin: 40px 0px 0px;}
+    .our-brands .justify-content-end {justify-content: center !important;}
+    .favorite-trends-slider {margin: 0px 0px;}
+    .arrivals-slider {margin: 0px 0px;}
+    .live-video br{display: none;}
+    .favorite-letter .d-flex, .new-arrivals .d-flex, .live-video .d-flex, .best-keyboards .d-flex, .control-tunes .d-flex, .possibles .d-flex, footer .d-flex{display: block !important;}
+    .best-keyboards .shopping-book{margin-top:15px;}
+    .ratings.d-flex{display: flex !important;}
+    .favorite-letter .next-jump, .new-arrivals .next-jump, .control-tunes .next-jump{top:0;margin-bottom: 30px ;}
+
+    .quick-links {
+        margin: 25px 0px;
+      }
+
+      footer {
+        padding: 30px 0px 20px !important;
+      }
+
+    .care-box { 
+        float: left;
+        width: 50%;
+        margin: 16px 0px;
+      }
+    
+    .live-video .secondary-para{margin-bottom:20px;}
+    .carousel-caption .img-fluid {
+        width: 40%;
+      }
     .carousel .carousel-item iframe {
         height: 300px;
     }
+    .common-heads h2 {
+        font-size: 26px;
+      }
 
     .carousel .carousel-caption h4 {
         font-size: 24px;
@@ -1134,5 +1269,24 @@ color: #1A1A1A;}
 }
 
 @media (max-width: 480px) {
-  
+    #homeCarousel.carousel .carousel-caption {
+        top: 20%;}
+        .deals-box{padding:15px 15px 0px 15px;}
+        .deals-box ul li {
+            width: 45%;
+          }
+          .common-heads img {
+            width: 10%;
+          }
+          .common-heads h2 {
+            font-size: 20px;
+          }
+          .next-jump a img{top:0px;}
+          .next-jump a {
+            font-size: 14px;
+          }
+          .care-box{width:100%;}
+          .bottom-bar {
+            padding: 15px 0px 70px !important;
+          }
 }

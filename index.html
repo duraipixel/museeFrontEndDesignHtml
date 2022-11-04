@@ -37,7 +37,7 @@
         <div class="d-flex align-items-center justify-content-between">
           <div class="top-logo">
             <a href=""><img src="images/logo.svg" alt="" /></a>
-          </div>
+          </div> 
           <div class="top-search">
 		  <div class="">
 			<select class="form-control" id="enq" name="enq">
@@ -83,7 +83,14 @@
     <div class="row">
       <div class="col">
         <nav id='cssmenu'>  
+			<div class="srch-btn">
+				<a href="#" class="clk-srch" data-bs-toggle="modal" data-bs-target="#exampleModal">
+				<img src="images/srch.png">
+				</a>
+				</div> 
+				  
           <div class="button"></div>
+          
           <ul>
             <!-- <li id="corporate-menu"><a href='javascript:void(0)'>Corporate</a>
               <ul>
@@ -315,8 +322,8 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="images/banners/banner-image1.jpg" alt="" class="w-100 d-none d-lg-block" />
-      <img src="images/banners/banner-image1-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <img src="images/banners/banner-image1.jpg" alt="" class="w-100 desky-banner" />
+      <img src="images/banners/banner-image1-mobile.jpg" alt="" class="w-100 moby-banner" />
       <div class="carousel-caption animated animatedFadeInUp fadeInUp">
 		<img src="images/banner-logo.png" alt="" class="img-fluid" />
         <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
@@ -324,8 +331,8 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/banners/banner-image2.jpg" alt="" class="w-100 d-none d-lg-block" />
-      <img src="images/banners/banner-image2-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <img src="images/banners/banner-image2.jpg" alt="" class="w-100 desky-banner" />
+      <img src="images/banners/banner-image2-mobile.jpg" alt="" class="w-100 moby-banner" />
       <div class="carousel-caption animated animatedFadeInUp fadeInUp">
 		<img src="images/banner-logo.png" alt="" class="img-fluid" />
         <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
@@ -333,8 +340,8 @@
       </div>
     </div>
     <div class="carousel-item">
-      <img src="images/banners/banner-image3.jpg" alt="" class="w-100 d-none d-lg-block" />
-      <img src="images/banners/banner-image4-mobile.jpg" alt="" class="w-100 d-block d-lg-none" />
+      <img src="images/banners/banner-image3.jpg" alt="" class="w-100 desky-banner" />
+      <img src="images/banners/banner-image3-mobile.jpg" alt="" class="w-100 moby-banner" />
       <div class="carousel-caption animated animatedFadeInUp fadeInUp">
 		<img src="images/banner-logo.png" alt="" class="img-fluid" />
         <h1 class="text-blue">Your favorite instrument store <span>since 1842</span></h1> 
@@ -361,7 +368,7 @@
 	
 	<div class="row">
 	
-	<div class="col-lg-3">
+	<div class="col-lg-3 col-md-6 col-sm-12 xol-xs-12">
 	<div class="deals-box">
 	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
 	<ul>
@@ -385,7 +392,7 @@
 	</div>
 	</div>
 	
-	<div class="col-lg-3">
+	<div class="col-lg-3 col-md-6 col-sm-12 xol-xs-12">
 	<div class="deals-box">
 	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
 	<ul>
@@ -409,7 +416,7 @@
 	</div>
 	</div>
 	
-	<div class="col-lg-3">
+	<div class="col-lg-3 col-md-6 col-sm-12 xol-xs-12">
 	<div class="deals-box">
 	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
 	<ul>
@@ -433,7 +440,7 @@
 	</div>
 	</div>
 	
-	<div class="col-lg-3">
+	<div class="col-lg-3 col-md-6 col-sm-12 xol-xs-12">
 	<div class="deals-box">
 	<h4>Upto <span>40% OFF</span> on Recording Accessories</h4>
 	<ul>
@@ -1998,57 +2005,35 @@ Top 10 instruments specially curated for you by our experts
 </div>
 </section>
 
+<div class="mobile-footer">
+	
+	<a href="javascript:void(0)" class="toggle-button" data-toggle="tooltip" title="Download Your Reports">
+		<img src="images/mob-ic-1.png" alt="" class="img-fluid"/>
+		Products
+		</a>
+	<a href="" data-toggle="tooltip" title="Current Location">
+  <img src="images/mob-ic-2.png" alt="" class="img-fluid"/>
+  Login
+  </a>
+	<a href="" data-toggle="tooltip" title="Login to view your Profile">
+  <img src="images/mob-ic-4.png" alt="" class="img-fluid"/>
+  Compare
+  </a>
+	<a href="" data-toggle="tooltip" title="Cart Details">
+  <img src="images/mob-ic-3.png" alt="" class="img-fluid"/>
+  Cart
+  </a>
+	<a href="" target="_blank" data-toggle="tooltip" title="Call Us">
+		<img src="images/mob-ic-5.png" alt="" class="img-fluid"/>
+  Call Us
+  </a>
+  </div>
+
 </div> 
 <div class="overlay"></div>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.css">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.6.9/sweetalert2.min.js"></script>
-<script type="text/javascript">
-function funSave_subscriber(){
-    if (document.formSubscriber.aemail.value == "") {
-                alert("Please Enter Your Email")
-                document.form1.aname.focus()
-                return false;
-            }
-	if ($('#jvalidate').valid()) {
-
-		// $("button").attr('disabled',true);
-			// console.log( $("#jvalidate").serialize());
-            // return false;
-
-			$.ajax({
-				url: '<?php echo BASE_URL; ?>ajax/save_subscriber',
-				method     : 'POST',
-				dataType   : 'json',
-				data       : $("#jvalidate").serialize(),
-				
-				success: function(response){ 
-				
-					if(response.rslt == "1"){
-                        swal({
-							title: "Success!",
-							text: "Subscribe successfully",
-							type: "success",
-						}, function() {
-							location.reload();
-						});									
-						$('#jvalidate')[0].reset();
-					}
-					else{
-                        swal("Failure !", "error");
-					}	
-                    	
-				
-					unloading();
-					$("button").attr('disabled',false);
-				}
-			});
-	}
-    else{
-        alert("else")
-    }
-}
-
-</script>
+ 
 
 
 	<script	src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
@@ -2068,11 +2053,53 @@ function funSave_subscriber(){
 	
     <script type="text/javascript" src="js/main.js"></script>	
 
+	<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+		  <div class="modal-content">
+			<div class="modal-header">
+			  <h5 class="modal-title" id="exampleModalLabel">Search your Products</h5>
+			  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			</div>
+			<div class="modal-body">
+				<div class="top-search">
+					<div class="">
+					  <select class="form-control" id="enq" name="enq">
+						  <option value="">All Products</option>
+						  <option value="Dealer">Dealer</option>
+						  <option value="Dealer">Distributor</option>
+						  <option value="Dealer">Bulk Enquiry</option>
+						  <option value="Dealer">Importer</option>
+						  <option value="Dealer">Exporter</option>
+						  <option value="Dealer">Retailer</option>
+						  <option value="Dealer">Interior Designer</option>
+						  <option value="Dealer">Architect</option>
+						  <option value="Dealer">Builder</option>
+						  <option value="Dealer">Project </option>
+						  <option value="Dealer">Hotel </option>
+						  <option value="Dealer">Restaurants</option>
+						  <option value="Dealer">Hospital</option>
+						  <option value="Dealer">School/ University/ Hostel</option>
+						  <option value="Dealer">Others</option>
+					  </select>
+					</div>
+					<div class="form-data">		  		  
+					  <input type="search" placeholder="Search..."> 
+					</div>
+					</div>
+			</div> 
+		  </div>
+		</div>
+	  </div>
+
+
+
+
+
 <script>
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
     //console.log(scroll);
-    if (scroll >= 200) {
+    if (scroll >= 100) {
       //console.log('a');
       $("body").addClass("pad-top");
       $("header").addClass("fixed-top");
@@ -2099,14 +2126,14 @@ function funSave_subscriber(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 4,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 2,
             slidesToScroll: 1,
           },
         },
@@ -2114,6 +2141,13 @@ function funSave_subscriber(){
           breakpoint: 600,
           settings: {
             slidesToShow: 2,
+            slidesToScroll: 1,
+          },
+        },
+        {
+          breakpoint: 500,
+          settings: {
+            slidesToShow: 1,
             slidesToScroll: 1,
           },
         },
@@ -2139,7 +2173,7 @@ function funSave_subscriber(){
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -2168,14 +2202,14 @@ function funSave_subscriber(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow:4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
@@ -2202,14 +2236,14 @@ function funSave_subscriber(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
@@ -2236,14 +2270,14 @@ function funSave_subscriber(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
@@ -2270,14 +2304,14 @@ function funSave_subscriber(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
@@ -2292,13 +2326,13 @@ function funSave_subscriber(){
     });
 </script>
 
-<script>
+<script> 
+
 
 $(".toggle-button").click(function(){
   $(".togle-menu").toggleClass("show");
   $(".overlay").toggleClass("overlay-bg");
 });
-
 
 $(".overlay").click(function(){
   $(".togle-menu").removeClass("show");
@@ -2309,6 +2343,7 @@ $(".clse-menu").click(function(){
   $(".togle-menu").removeClass("show");
   $(".overlay").removeClass("overlay-bg");
 });
+
 </script>
 
 <script>
@@ -2325,14 +2360,14 @@ $(".clse-menu").click(function(){
         {
           breakpoint: 1400,
           settings: {
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
           },
         },
         {
-          breakpoint: 960,
+          breakpoint: 990,
           settings: {
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
           },
         },
