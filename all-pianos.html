@@ -36,7 +36,7 @@
       <div class="col">
         <div class="d-flex align-items-center justify-content-between">
           <div class="top-logo">
-            <a href=""><img src="images/logo.svg" alt="" /></a>
+            <a href="index.html"><img src="images/logo.svg" alt="" /></a>
           </div> 
           <div class="top-search">
 		  <div class="">
@@ -391,8 +391,37 @@
 </div>	
 </div>
 
-<div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+<div class="pianos-lists">
 
+	<div class="col-lg-12 col-md-12 col-sm-12 d-flex justify-content-between">
+    <div class="primary-heads">
+    <h3> Displaying 1-12 of 6540 results</h3>
+    </div>
+    <div class="sort-order">
+      <select class="form-control" id="enq" name="enq">
+        <span> Sort by</span>
+				<option value="">Top Rated</option>
+                <option value="Dealer">Dealer</option>
+                <option value="Dealer">Distributor</option>
+                <option value="Dealer">Bulk Enquiry</option>
+                <option value="Dealer">Importer</option>
+                <option value="Dealer">Exporter</option>
+                <option value="Dealer">Retailer</option>
+                <option value="Dealer">Interior Designer</option>
+                <option value="Dealer">Architect</option>
+                <option value="Dealer">Builder</option>
+                <option value="Dealer">Project </option>
+                <option value="Dealer">Hotel </option>
+                <option value="Dealer">Restaurants</option>
+                <option value="Dealer">Hospital</option>
+                <option value="Dealer">School/ University/ Hostel</option>
+                <option value="Dealer">Others</option>
+			</select>
+    </div>
+    </div>	  
+  
+</div>
 </div>
 
 </div>	
@@ -549,10 +578,6 @@
 		</div>
 	  </div>
 
-
-
-
-
 <script>
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
@@ -569,223 +594,9 @@
       $(".top-bar").removeClass("top-fix");
     }
   }); 
-</script>
-
-
-<script>
-    $('.patrons-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 3,
-      dots: false,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 500,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
-
-
-<script>
-    $('.brands-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 6,
-      dots: false,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
-
-<script>
-    $('.favorite-trends-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 4,
-      dots: true,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow:4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
-
-<script>
-    $('.keyboards-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 5,
-      dots: true,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
-
-<script>
-    $('.arrivals-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 5,
-      dots: true,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
-
-<script>
-    $('.ranked-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: false, 
-      slidesToShow: 5,
-      dots: true,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
+</script> 
 
 <script> 
-
 
 $(".toggle-button").click(function(){
   $(".togle-menu").toggleClass("show");
@@ -802,43 +613,7 @@ $(".clse-menu").click(function(){
   $(".overlay").removeClass("overlay-bg");
 });
 
-</script>
-
-<script>
-    $('.trending-slider').slick({
-      autoplay: true,
-      autoplaySpeed: 3000,
-      arrows: true, 
-	  prevArrow: '<button type="button" class="slick-prev"></button>',
-      nextArrow: '<button type="button" class="slick-next"></button>',
-      slidesToShow: 5,
-      dots: true,
-      slidesToScroll: 1,
-      responsive: [
-        {
-          breakpoint: 1400,
-          settings: {
-            slidesToShow: 4,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 990,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          },
-        },
-      ],
-    });
-</script>
+</script> 
 
 	<script>
 		$(document).ready(function () {
@@ -850,6 +625,7 @@ $(".clse-menu").click(function(){
 			} 		
 		});
 	</script>
+
 	<script>
 		(function ($) {
 			$.fn.menumaker = function (options) {

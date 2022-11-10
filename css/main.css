@@ -395,6 +395,8 @@ section {
 .common-heads h2{font-family: 'Quicksand', sans-serif;font-weight: 700;font-size: 38px;line-height: 48px;color:#212363;}
 .common-heads.light h2{color:#fff;}
 
+.primary-heads h3{font-weight: 400;font-size: 18px;line-height: 23px;font-family: 'Mulish', sans-serif;color: #000000;}
+
 .secondary-para{font-weight: 400;
 font-size: 20px;
 line-height: 25px;
@@ -968,12 +970,12 @@ body.pad-top .secondary-menu ul li{display: inline-block;margin:8px 38px 14px;tr
     .secondary-menu ul li a:hover{font-weight: 700;opacity: 1;color: #FFFFFF;transition: all 0.3s ease;}
 
 .all-pianos-list{background: #f9f9f9;position: relative;padding: 50px 0px;}
-.all-pianos-list:before{position:absolute;content: "";left:0;top:0;height:100%;width:35%;background-color:rgba(26, 26, 26, 0.15);}
+.all-pianos-list:before{position:absolute;content: "";left:0;top:0;height:100%;width:32%;background-color:rgba(26, 26, 26, 0.15);}
 
 .all-pianos-list .container{position: relative;z-index: 10;}
 
 .filter-lists input[type="search"] {
-    width: 100%;
+    width: 80%;
     border: 0px solid #d4d4d4;
     height: 45px;
     padding: 15px 35px 15px 15px;
@@ -1064,7 +1066,7 @@ span.shw-all a{font-weight: 500;
     line-height: 20px; text-decoration-line: underline;
     color: #212363 !important;}
 
-
+.sort-order select{width:179px; height:35px;border-radius:4px;margin-top:0px;background:#EBEBEB url("../images/blue-dwn.png") no-repeat scroll 90% center;color:#fff;font-weight: 400;cursor:pointer;font-size: 15px;font-family: 'Mulish', sans-serif;line-height: 19px;border:0px;position:relative;right:-2px;transition: all .3s ease;color: #101010;}
 
 
 
