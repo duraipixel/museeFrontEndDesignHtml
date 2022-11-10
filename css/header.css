@@ -318,6 +318,7 @@ animation-duration: 1s;
 animation-fill-mode: both;
 opacity: 0;padding:6px 0px 10px;transition: all .3s ease;
 box-shadow: 10px 0px 10px rgba(0, 0, 0, 0.2);
+z-index: 999;
 }  
 
 .top-bar.top-fix .top-search select {height: 30px;transition: all .3s ease;right: -3px;font-size: 14px;}
