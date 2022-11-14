@@ -1386,8 +1386,9 @@ span.fil-optn {
         width:100%;background: #1A1A1A url("../images/down-arrow.svg") no-repeat scroll 96% center;
       }
       .modal-body .top-search input[type="search"]{border:1px solid #d4d4d4;margin-top: 15px;}
- 
-	
+      .secondary-menu ul li{margin:15px 10px 20px;}
+      body.pad-top .secondary-menu ul li{margin:8px 10px 14px;}
+      .secondary-menu ul li a{font-size: 15px;}
 }
 
 @media (max-width: 800px) {
@@ -1401,6 +1402,16 @@ span.fil-optn {
 }
 
 @media (max-width: 760px) {
+    .sdmnu-repnsve{top:132px;}
+    .main-det-prdt .row > *{width:50%;}
+
+    .secondary-menu ul { 
+        overflow-x: scroll;
+        width: 100%;
+        display: flex;
+        white-space: nowrap;
+      }
+	
     .deals-box{margin-bottom: 25px;}
     .desky-banner{display:none;}
     .moby-banner{display:block;}
@@ -1449,11 +1460,26 @@ span.fil-optn {
         display: none;
     }
 
+    body.pad-top .secondary-menu ul li{margin:8px 20px 14px;}
+    .secondary-menu ul li{margin:8px 20px 14px;}
   
 
 }
 
 @media (max-width: 580px) {
+    
+    .main-det-prdt .row > *{width:100%;}
+    .pianos-lists .justify-content-between {
+        justify-content: initial !important;
+      }
+      .pianos-lists .d-flex {
+        display: block !important;
+      }
+      .sort-order {
+        position: relative;
+        left: 60px;
+        top: 8px;
+      }
     .togle-menu{width: 300px;}
     .togle-menu .togmenu-header{width: 300px;}
     .togmenu-header{padding: 15px 15px 21px 15px;}
@@ -1486,6 +1512,7 @@ span.fil-optn {
     .favorite-letter .d-flex, .new-arrivals .d-flex, .live-video .d-flex, .best-keyboards .d-flex, .control-tunes .d-flex, .possibles .d-flex, footer .d-flex{display: block !important;}
     .best-keyboards .shopping-book{margin-top:15px;}
     .ratings.d-flex{display: flex !important;}
+    .ratings.justify-content-between{justify-content: space-between !important;}
     .favorite-letter .next-jump, .new-arrivals .next-jump, .control-tunes .next-jump{top:0;margin-bottom: 30px ;}
 
     .quick-links {
