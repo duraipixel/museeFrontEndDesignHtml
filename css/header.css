@@ -195,6 +195,8 @@ line-height: 20px;
   transition: all 0.3s ease;
 }
 
+#cssmenu > ul > li > a.active:before{width:100%;}
+
 #cssmenu > ul > li.having-hamber > a::before {
   display:none;
 }

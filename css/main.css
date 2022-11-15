@@ -386,7 +386,7 @@ a:hover {
 } 
 
 section {
-    padding: 100px 0px;
+    padding: 90px 0px;
     position: relative;
 }
  
@@ -1104,21 +1104,48 @@ span.fil-optn {
     display:none;}
 .cl-se-btn{display: none;}
 
+.inner-banner{padding:150px 0px;background-repeat: no-repeat;background-size: cover;background-position: center center;} 
+.inner-liners h1{font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    text-transform: none;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;}
+.shop-brands-top{background-color: #f9f9f9;}
 
+.brands-shots{background-color:#fff;padding:40px 50px 50px 50px;margin-bottom:50px;}
 
+.brands-shots ul{padding: 0px;margin:0px;display: flex;flex-wrap: wrap;align-items: center;justify-content:center;}
+.brands-shots ul li{display: inline-block;width:25%;padding-top:40px;border-right:1px solid #D0D0D0;border-bottom:1px solid #D0D0D0;} 
+.brands-shots ul li img{width:80%;} 
+.brands-shots ul li span{display: block;margin: 30px 0px 10px;} 
 
+.brands-shots ul li:nth-child(4), .brands-shots ul li:nth-child(8), .brands-shots ul li:nth-child(12){border-right:0px;}
 
+.brands-shots ul li:nth-child(9), .brands-shots ul li:nth-child(10), .brands-shots ul li:nth-child(11), .brands-shots ul li:nth-child(12){border-bottom:0px;}
 
+.inner-headngs h2{font-weight: 600;
+    font-size: 36px;font-family: 'Quicksand', sans-serif;
+    line-height: 45px;color: #000000;}
 
+    .brands-intab ul{padding: 0px;margin:0px;display: flex;flex-wrap: wrap;align-items: center;justify-content:center;margin-top: 35px;}
+    .brands-intab ul li{display: inline-block;width:25%;padding-top:40px;} 
+    .brands-intab ul li img{width:60%;} 
+    .brands-intab ul li span{display: block;margin: 30px 0px 10px;font-weight: 600;
+        font-size: 18px;font-family: 'Mulish', sans-serif;
+        line-height: 25px; 
+        color: #000000;
+        } 
+    .brands-list-ftntion .nav-tabs, .brands-list-ftntion .nav-tabs .nav-link.active{border: 0px;outline: 0px;background-color: transparent;color:#1A1A1A;}
 
+    .brands-list-ftntion .nav-tabs .nav-link:hover{color:#1A1A1A;}
 
-
-
-
-
-
-
-
+    .brands-list-ftntion .nav-tabs .nav-link{border: 0px;outline: 0px;font-weight: 600;
+        font-size: 18px;font-family: 'Quicksand', sans-serif;padding:0px 12px;position: relative;
+        line-height: 22px;  color: #8D8D8D;}
+    .brands-list-ftntion .nav-tabs .nav-link:before{position:absolute;content: "";right:0;top:9px;width:3px;height:3px;background-color:#212363;border-radius: 100%;}
+    .brands-list-ftntion .nav-tabs li:last-child .nav-link:before{display: none;}
+    .brands-list-ftntion .inner-headngs h2{margin-bottom:40px;}
 
 
 
@@ -1393,7 +1420,7 @@ span.fil-optn {
 
 @media (max-width: 800px) {
 
-
+    .brands-list-ftntion .nav-tabs .nav-link{margin-bottom:10px;}
 #homeCarousel.carousel .carousel-caption {top: 50%;
     bottom: inherit;
     padding: 50px 100px;
@@ -1402,6 +1429,7 @@ span.fil-optn {
 }
 
 @media (max-width: 760px) {
+
     .sdmnu-repnsve{top:132px;}
     .main-det-prdt .row > *{width:50%;}
 
@@ -1416,7 +1444,7 @@ span.fil-optn {
     .desky-banner{display:none;}
     .moby-banner{display:block;}
     section {
-        padding: 50px 0px;
+        padding: 40px 0px;
     }
 	
 	body.town-bus .town-bus-mobile-btn{
@@ -1467,11 +1495,33 @@ span.fil-optn {
 }
 
 @media (max-width: 580px) {
-    
+    .brands-shots{padding: 30px 30px 30px 30px;}
+    .brands-shots ul li{width:50%;}
     .main-det-prdt .row > *{width:100%;}
     .pianos-lists .justify-content-between {
         justify-content: initial !important;
       }
+      .brands-shots ul li:nth-child(4), .brands-shots ul li:nth-child(8), .brands-shots ul li:nth-child(12) {
+        border-right: 1px solid #D0D0D0;}
+      .brands-shots ul li:nth-child(9), .brands-shots ul li:nth-child(10), .brands-shots ul li:nth-child(11), .brands-shots ul li:nth-child(12){border-bottom: 1px solid #D0D0D0;}
+
+      .brands-shots ul li:nth-child(2), .brands-shots ul li:nth-child(4), .brands-shots ul li:nth-child(6), .brands-shots ul li:nth-child(8), .brands-shots ul li:nth-child(10), .brands-shots ul li:nth-child(12) {
+        border-right:0px solid #D0D0D0;}  
+        
+    
+.brands-shots ul li:nth-child(11), .brands-shots ul li:nth-child(12) {border-bottom: 0px solid #D0D0D0;}
+
+      .brands-intab ul li{width: 50%;}
+
+      .inner-liners h1 br{display: none;}
+
+      .inner-liners h1 {
+        font-size: 24px;
+        line-height: 38px;}
+        .inner-headngs h2 { 
+            font-size: 26px; 
+            line-height: 35px; 
+          }
       .pianos-lists .d-flex {
         display: block !important;
       }
