@@ -1898,6 +1898,18 @@ span.fil-optn {
 
 .brand-box {
     position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.brand-box img {
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.brand-box:hover img {
+    transform: scale(1.1);
+    transition: all 0.3s ease;
 }
 
 .brand-box .brand-set {
@@ -1905,12 +1917,145 @@ span.fil-optn {
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 30%;
+    height: 32%;
     text-align: center;
 }
 
 .musical-brands .col-lg-6 {
     margin-bottom: 30px;
+}
+
+.brand-set h3 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+
+.brand-set a {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    font-family: 'Quicksand', sans-serif;
+    padding: 8px 25px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.brand-set a:hover {
+    color: #fff;
+    border: 2px solid #000;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.secnd-layr .brand-box {
+    margin-bottom: 30px;
+}
+
+.secnd-layr .brand-box.main-bx .brand-set {
+    height: 17%;
+}
+
+.secnd-layr .brand-box.sub-bx .brand-set {
+    height: 36%;
+}
+
+.musical-brands.secnd-layr {
+    padding: 0px 0px 70px 0px;
+}
+
+.access-aories {
+    bottom: 15px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    width: 100%;
+    padding: 0px 15px;
+}
+
+.keyboards-detail-slider .slick-dots {
+    bottom: -55px;
+}
+
+.keyboards-detail-slider .slick-dots li button::before {
+    font-size: 0;
+    width: 12px;
+    border-radius: 100%;
+    height: 12px;
+    background: #fff;
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.keyboards-detail-slider .slick-dots li.slick-active button::before {
+    opacity: 1;
+    margin-right: 20px;
+    transition: all 0.3s ease;
+    background: #B5B7FF;
+    border-radius: 60px;
+    height: 12px;
+    width: 33px;
+}
+
+.keyboards-detail-slider .slick-dots li.slick-active {
+    width: 30px;
+    transition: all 0.3s ease;
+}
+
+.keyboards-detail-slider .slick-dots li {
+    width: 10px;
+    transition: all 0.3s ease;
+}
+
+.keyboards-detail-slider .arrival-product {
+    margin: 0px 10px 15px;
+}
+
+.access-aories h4 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 37px;
+    color: #FFFFFF;
+    margin: 0px;
+}
+
+.arrival-product .access-aories a {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: 2px solid #fff;
+    padding: 8px 25px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.arrival-product .access-aories a:hover {
+    background-color: #000;
+    transition: all 0.3s ease;
+    border: 2px solid #000;
+}
+
+.prdt-img {
+    overflow: hidden;
+}
+
+.prdt-img img {
+    transform: scale(1);
+    transition: all 0.3s ease;
+}
+
+.prdt-img:hover img {
+    transform: scale(1.2);
+    transition: all 0.3s ease;
 }
 
 @media (min-width: 1200px) {
@@ -2312,6 +2457,33 @@ span.fil-optn {
 }
 
 @media (max-width: 580px) {
+    .musical-brands .col-lg-3 {
+        margin-bottom: 30px;
+    }
+    .musical-brands .brand-box img {
+        width: 100%;
+    }
+    .brand-box .brand-set {
+        height: 46%;
+    }
+    .musical-brands .col-lg-3 .brand-box .brand-set {
+        height: 22%;
+    }
+    .secnd-layr .brand-box.main-bx .brand-set {
+        height: 23%;
+    }
+    .secnd-layr .brand-box.sub-bx .brand-set {
+        height: 48%;
+    }
+    .secnd-layr .brand-box {
+        margin-bottom: 0px;
+    }
+    .secnd-layr .brand-box.sub-bx {
+        margin-bottom: 30px;
+    }
+    .musical-brands.secnd-layr {
+        padding: 0;
+    }
     .brands-shots {
         padding: 30px 30px 30px 30px;
     }
