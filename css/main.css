@@ -2323,6 +2323,100 @@ li.oly-btn a:hover {
     font-weight: 700;
 }
 
+.tab-of-sectors {
+    background-color: #f9f9f9;
+    padding: 50px 0px 100px;
+    position: relative;
+}
+
+.description-alyout {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
+    color: #000000;
+    width: 73%;
+    margin: 0 auto;
+}
+
+.description-details {
+    padding-top: 40px;
+}
+
+.tab-of-sectors .nav-tabs {
+    background-color: #ECECEC;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: capitalize;
+    color: #000000;
+    border-bottom: 2px solid #A2A2A2;
+}
+
+.tab-of-sectors .nav-link.active {
+    background-color: #1A1A1A;
+    color: #fff;
+    border-bottom: 2px solid #000;
+}
+
+button.nav-link {
+    color: #000;
+    padding: 18px 150px;
+    border-radius: 0px !important;
+    transition: all 0.3s ease;
+}
+
+button.nav-link:hover {
+    color: #212363;
+    transition: all 0.3s ease;
+}
+
+.description-details::before {
+    position: absolute;
+    content: "";
+    background: url("../images/music-icon.png") no-repeat scroll 0 0;
+    width: 190px;
+    height: 381px;
+    left: 0;
+    top: 180px;
+}
+
+.description-details::after {
+    position: absolute;
+    content: "";
+    background: url("../images/caste.png") no-repeat scroll 0 0;
+    width: 180px;
+    height: 472px;
+    right: 0;
+    bottom: 0px;
+}
+
+.description-details.no-bfr-afr:before,
+.description-details.no-bfr-afr:after {
+    display: none;
+}
+
+.description-alyout.small-wdth {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+}
+
+.inner-headngs.small-wdth h2 {
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.cmn-set-50 {
+    padding: 50px 0px;
+}
+
+.control-tunes.inside-pge {
+    background: #212363;
+}
+
 @media (min-width: 1200px) {
     .carousel .carousel-caption {
         max-width: 1100px;
@@ -2390,6 +2484,9 @@ li.oly-btn a:hover {
 }
 
 @media (max-width: 1380px) {
+    button.nav-link {
+        padding: 18px 80px;
+    }
     .carousel .carousel-control-prev {
         left: 10px;
     }
@@ -2417,6 +2514,18 @@ li.oly-btn a:hover {
 }
 
 @media (max-width: 1100px) {
+    button.nav-link {
+        padding: 18px 60px;
+    }
+    .description-alyout {
+        width: 95%;
+    }
+    .description-details::before {
+        opacity: 0.3;
+    }
+    .description-alyout-img img {
+        margin-top: 30px;
+    }
     .carousel .carousel-caption h4 {
         font-size: 30px;
         line-height: 40px;
@@ -2722,6 +2831,28 @@ li.oly-btn a:hover {
 }
 
 @media (max-width: 580px) {
+    .description-details .inner-headngs h2 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .description-alyout {
+        font-size: 16px;
+    }
+    .inner-headngs.small-wdth h2 {
+        font-size: 24px;
+    }
+    button.nav-link {
+        padding: 13px 20px;
+    }
+    .tab-of-sectors .nav-tabs {
+        font-size: 16px;
+    }
+    .prdt-headng h1 {
+        font-size: 28px;
+    }
+    .product-details {
+        padding: 50px 0px 0;
+    }
     .musical-brands .col-lg-3 {
         margin-bottom: 30px;
     }
@@ -2930,6 +3061,9 @@ li.oly-btn a:hover {
 }
 
 @media (max-width: 480px) {
+    .prdt-headng h1 {
+        font-size: 23px;
+    }
     #homeCarousel.carousel .carousel-caption {
         top: 20%;
     }
