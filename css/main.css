@@ -3453,7 +3453,7 @@
         .form-data.round .src-fndings {
             height: 0;
             opacity: 0;
-            transition: all 0.5s ease;
+            transition: all 0.3s ease;
         }
         
         .form-data .src-fndings {
@@ -3463,17 +3463,18 @@
             height: 0;
             opacity: 0;
             top: 50px;
-            transition: all 0.5s ease;
+            transition: all 0.3s ease;
         }
         
         .form-data.bluebg .src-fndings {
             position: absolute;
-            background-color: #fff;
+            background-color: #e9e9e9;
             top: 50px;
             width: 100%;
-            height: 200px;
+            height: 360px;
             opacity: 1;
-            transition: all 0.5s ease;
+            transition: all 0.3s ease;
+            border-radius: 4px;
         }
         
         .form-data.bluebg ul.src-fndings {
@@ -3481,19 +3482,44 @@
             margin: 0px;
         }
         
-        .form-data.bluebg ul.src-fndings li {
+        .form-data ul.src-fndings li {
             display: flex;
             flex-wrap: nowrap;
             width: 100%;
             align-items: center;
             position: relative;
-            padding-left: 150px;
+            padding: 0px 20px 0px 140px;
             min-height: 120px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 25px;
+            color: #141F80;
+            font-family: 'Mulish', sans-serif;
+            border-bottom: 2px solid #dfdfdf;
+        }
+        
+        .form-data ul.src-fndings li a {
+            color: #141F80;
+        }
+        
+        .form-data ul.src-fndings li span {
+            display: block;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 23px;
+            font-family: 'Mulish', sans-serif;
+            color: #747474;
+        }
+        
+        .form-data ul.src-fndings li img {
+            position: absolute;
+            left: 20px;
+            top: 9px;
+            opacity: 0;
         }
         
         .form-data.bluebg ul.src-fndings li img {
-            position: absolute;
-            left: 0;
+            opacity: 1;
         }
         
         @media (min-width: 1200px) {
