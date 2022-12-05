@@ -10,6 +10,7 @@
         html,
         body {
             scroll-behavior: smooth;
+            overflow-x: hidden;
         }
         
         body::-webkit-scrollbar {
@@ -619,6 +620,7 @@
         .top-search .form-data {
             display: flex;
             width: 100%;
+            position: relative;
         }
         
         .top-search select.form-control:focus {
@@ -3442,6 +3444,56 @@
             font-family: 'Mulish', sans-serif;
             color: #000000;
             display: block;
+        }
+        
+        .aadeo-vedeo .fav-img {
+            margin-bottom: 30px;
+        }
+        
+        .form-data.round .src-fndings {
+            height: 0;
+            opacity: 0;
+            transition: all 0.5s ease;
+        }
+        
+        .form-data .src-fndings {
+            position: absolute;
+            background-color: #fff;
+            width: 100%;
+            height: 0;
+            opacity: 0;
+            top: 50px;
+            transition: all 0.5s ease;
+        }
+        
+        .form-data.bluebg .src-fndings {
+            position: absolute;
+            background-color: #fff;
+            top: 50px;
+            width: 100%;
+            height: 200px;
+            opacity: 1;
+            transition: all 0.5s ease;
+        }
+        
+        .form-data.bluebg ul.src-fndings {
+            padding: 0px;
+            margin: 0px;
+        }
+        
+        .form-data.bluebg ul.src-fndings li {
+            display: flex;
+            flex-wrap: nowrap;
+            width: 100%;
+            align-items: center;
+            position: relative;
+            padding-left: 150px;
+            min-height: 120px;
+        }
+        
+        .form-data.bluebg ul.src-fndings li img {
+            position: absolute;
+            left: 0;
         }
         
         @media (min-width: 1200px) {

@@ -61,17 +61,25 @@
                                     </select>
                                 </div>
                                 <div class="form-data">
-                                    <input type="search" placeholder="Search...">
+                                    <input class="src-blnk" type="search" placeholder="Search...">
+                                    <ul class="src-fndings">
+                                        <li>
+                                            <a href="">
+                                                <img src="images/sum-1.png"> Yamaha FC5 Sustain Pedal for Keyboards and Pianos
+                                                <span>Home | Products | Yamaha | FC5 Sustain Pedal for Keyboards and Pianos</span>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
                             <div class="top-icons">
                                 <ul>
                                     <li>
-                                        <a href=""><img src="images/cart.png" alt="" /></a>
+                                        <a href="shopping-cart.html"><img src="images/cart.png" alt="" /></a>
                                         <span class="cart-tpimg">2</span>
                                     </li>
                                     <li>
-                                        <a href=""><img src="images/user.png" alt="" /></a>
+                                        <a href="my-account.html"><img src="images/user.png" alt="" /></a>
                                     </li>
                                 </ul>
                             </div>
@@ -2311,6 +2319,21 @@
     </script>
 
     <script>
+        jQuery(document).ready(function($) {
+
+            $(".src-blnk").focus(function() {
+                $(this).parent().removeClass("round");
+                $(this).parent().addClass("bluebg");
+
+            }).blur(function() {
+                $(this).parent().removeClass("bluebg");
+                $(this).parent().addClass("round");
+            })
+
+        });
+    </script>
+
+    <script>
         $(".toggle-button").click(function() {
             $(".togle-menu").toggleClass("show");
             $(".overlay").toggleClass("overlay-bg");
@@ -2428,6 +2451,7 @@
             });
         })(jQuery);
     </script>
+
 
     <a href="#" class="back-to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a>
 </body>
